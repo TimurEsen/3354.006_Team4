@@ -48,6 +48,22 @@ public class Events {
     public UUID getID(){
         return id;
     }
+    public Instant  getDtstamp(){
+        return dtstamp;
+    }
+    public Instant getDtstart(){
+        return dtstart;
+    }
+    public Instant getDtend(){
+        return dtend;
+    }
+    public String getTitle(){
+        return title;
+    }
+    public String getDescription(){
+        return description;
+    }
+
 
 
 }

@@ -21,6 +21,11 @@ public class ProductController {
     @Autowired
     private ProductRepo productRepository;
 
+    public ProductController(ProductRepo mock) {
+        productRepository=mock;
+    }
+    public ProductController() {}
+
     // API Call: GET http://localhost:8080/api/products
     @GetMapping
     public List<Events> getAllProducts() {
