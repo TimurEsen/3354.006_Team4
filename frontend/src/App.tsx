@@ -105,7 +105,7 @@ function newProjectModal() {
                     <div className="modal-content">
                         <form id="new-project-form" className="needs-validation" method="post" onSubmit={createPost}>
                             <div className="modal-header">
-                                <h1 className="modal-title fs-5" id="exampleModalLabel">Make New Project</h1>
+                                <h1 className="modal-title fs-5" id="exampleModalLabel">Make New Event</h1>
                                 <button type="button" className="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                             </div>
